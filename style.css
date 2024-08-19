@@ -7,9 +7,12 @@
 body {
     font-family: "Outfit", system-ui;
     background-color: hsl(212, 45%, 89%);
-    min-height: 100vh;
+}
+
+main{
     display: flex;
     align-items: center;
+    min-height: 100vh;
     font-size: 15px;
 }
 
@@ -19,10 +22,10 @@ body {
 }
 .card{
     background-color: hsl(0, 0%, 100%);
-    padding: 1rem;
+    padding: 0.938rem;
     border-radius: 16px;
     text-align: center;
-    margin: 0 1em;
+    margin: 0 0.938rem;
 }
 .card img{
     width: 100%;
@@ -30,7 +33,7 @@ body {
 }
 
 .card-text h2{
-    padding-bottom: 0.938rem;
+    padding: 1rem 0.125rem;
     color: hsl(218, 44%, 22%);
 }
 .card-text p{
